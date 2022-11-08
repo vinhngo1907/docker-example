@@ -1,0 +1,34 @@
+{
+    "name": "docker-example",
+    "version": "1.0.0",
+    "description": "First time with docker",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ./src/index.js",
+        "dev": "nodemon ./src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vinhngo1907/docker-example.git"
+    },
+    "keywords": [
+        "Nodejs",
+        "MongoDB",
+        "Docker"
+    ],
+    "author": "Vinh Ngo",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vinhngo1907/docker-example/issues"
+    },
+    "homepage": "https://github.com/vinhngo1907/docker-example#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "mongoose": "^6.7.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}
